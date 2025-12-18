@@ -9,11 +9,7 @@ import {
   ShieldCheck,
   Zap,
 } from "lucide-react";
-import BookFreeDemoButton from "@/components/book-free-demo-button";
-
 export const metadata = { title: "CALMS International | Home" };
-
-const arimoFont = `@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');`;
 
 export default function Home() {
   const whyChoose = [
@@ -169,7 +165,7 @@ export default function Home() {
               </div>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  CALMS Cloud is a <span className="text-[#0154D6] font-normal">secure, scalable, and cloud solution</span> hosting platform that underpins CALMS International's core solutions, including the Visitor Management System (ViMS), Time Attendance Management System (TAMS), Guard Tour System (GTS), and Incident Management System (IMS), Facility Booking System (FaBS).
+                  CALMS Cloud is a <span className="text-[#0154D6] font-normal">secure, scalable, and cloud solution</span> hosting platform that underpins CALMS International&apos;s core solutions, including the Visitor Management System (ViMS), Time Attendance Management System (TAMS), Guard Tour System (GTS), and Incident Management System (IMS), Facility Booking System (FaBS).
                 </p>
                 <p>
                   Built upon the robust and reliable <span className="text-[#0154D6] font-normal">AWS infrastructure</span>, CALMS Cloud delivers exceptional uptime, high availability, and real-time data accessibility across global regions.
