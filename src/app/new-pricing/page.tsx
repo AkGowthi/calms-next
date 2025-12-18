@@ -106,7 +106,7 @@ const pricingData = [
           "Mobile Attendance Module (on Android & iOS) for 10 Users",
           "1x Admin Login",
           "10x Host Login",
-          "10x Guard App",
+          "10x Host App",
           "Limit to 10 Users",
         ],
         bgColor: "bg-white",
