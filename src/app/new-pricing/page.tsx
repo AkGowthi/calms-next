@@ -284,7 +284,7 @@ export default function NewPricingPage() {
 
             <div
               className={`grid grid-cols-1 md:grid-cols-2 gap-6 ${
-                section.title.includes("(IMS)") || section.title.includes("(GTS)")
+                section.title.includes("(NEW)") || section.title.includes("(GTS)")
                   ? "lg:grid-cols-3 mx-auto max-w-4xl"
                   : "lg:grid-cols-4"
               }`}
