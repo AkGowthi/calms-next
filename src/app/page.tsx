@@ -159,19 +159,19 @@ export default function Home() {
             <div className="space-y-6">
               <div>
                 <h2 className="text-3xl md:text-4xl font-normal text-[#333] mb-4">
-                  About CALMS Cloud
+                  About CALMS Solutions
                 </h2>
                 <div className="w-16 h-1 bg-[#0154D6]"></div>
               </div>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  CALMS Cloud is a <span className="text-[#0154D6] font-normal">secure, scalable, and cloud solution</span> hosting platform that underpins CALMS International&apos;s core solutions, including the Visitor Management System (ViMS), Time Attendance Management System (TAMS), Guard Tour System (GTS), and Incident Management System (IMS), Facility Booking System (FaBS).
+                  CALMS Solutions is a <span className="text-[#0154D6] font-normal">secure, scalable, and flexible platform</span> available in both Cloud and On-Premises deployment models, designed to meet diverse organisational needs and regulatory requirements. It supports CALMS’ core systems, including the Visitor Management System (ViMS), Time Attendance Management System (TAMS), Guard Tour System (GTS), Incident Management System (IMS), and Facility Booking System (FaBS).
                 </p>
                 <p>
-                  Built upon the robust and reliable <span className="text-[#0154D6] font-normal">AWS infrastructure</span>, CALMS Cloud delivers exceptional uptime, high availability, and real-time data accessibility across global regions.
+                  The CALMS Cloud is built on robust and reliable <span className="text-[#0154D6] font-normal">AWS infrastructure</span>, delivering high availability, exceptional uptime, and real-time data accessibility across global regions. For organisations that require greater control over their data or operate under strict internal IT policies, CALMS On-Premises offers the same powerful capabilities, deployed within the customer’s own infrastructure.
                 </p>
                 <p>
-                  Engineered with <span className="text-[#0154D6] font-normal">enterprise-grade data protection</span> and full GDPR compliance, CALMS Cloud empowers organisations to manage visitors, workforce attendance, patrol activities, and incident reporting seamlessly within a centralised, web-based platform.
+                  Engineered with <span className="text-[#0154D6] font-normal">enterprise-grade security</span> strong data protection, and full GDPR compliance, CALMS Solutions enables organisations to manage visitors, workforce attendance, patrol operations, and incident reporting seamlessly through a centralised, web-based platform—whether hosted in the cloud or on-premises.
                 </p>
               </div>
             </div>
