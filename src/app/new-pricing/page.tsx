@@ -234,7 +234,6 @@ const pricingData = [
         icon: Lightbulb,
         desc: "Perfect for startups",
         features: [
-          "Hardware Min. purchase 3 Units",
           "Guard Tour Portal",
           "1x Admin Login",
           "1x Guard Mobile Ap",
