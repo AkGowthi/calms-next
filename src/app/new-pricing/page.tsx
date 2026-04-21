@@ -33,7 +33,10 @@ const pricingData = [
       },
       {
         type: "STANDARD",
-        price: "£1,100",
+        price: (<div>
+                <div className="text-xs text-gray-[#0154D6]">FROM</div>
+                <div className="text-2xl font-bold text-[#0154D6]">£1,100</div>
+                </div>),
         period: "PER ANNUM",
         icon: PieChart,
         desc: "Get started with the essentials",
@@ -56,7 +59,10 @@ const pricingData = [
       },
       {
         type: "PREMIUM",
-        price: "£2,200",
+        price: (<div>
+                <div className="text-xs text-gray-[#0154D6]">FROM</div>
+                <div className="text-2xl font-bold text-[#0154D6]">£2,200</div>
+                </div>),
         period: "PER ANNUM",
         icon: Rocket,
         desc: "Power up your operations",
@@ -114,7 +120,10 @@ const pricingData = [
       },
       {
         type: "STANDARD",
-        price: "£1,465",
+        price: (<div>
+                <div className="text-xs text-gray-[#0154D6]">FROM</div>
+                <div className="text-2xl font-bold text-[#0154D6]">£1,465</div>
+                </div>),
         period: "PER ANNUM",
         icon: PieChart,
         desc: "Get started with the essentials",
@@ -131,7 +140,10 @@ const pricingData = [
       },
       {
         type: "PREMIUM",
-        price: "£4,500",
+        price: (<div>
+                <div className="text-xs text-gray-[#0154D6]">FROM</div>
+                <div className="text-2xl font-bold text-[#0154D6]">£4,500</div>
+                </div>),
         period: "PER ANNUM",
         icon: Rocket,
         desc: "Power up your operations",
@@ -180,7 +192,10 @@ const pricingData = [
       },
       {
         type: "STANDARD",
-        price: "£1,100",
+        price: (<div>
+                <div className="text-xs text-gray-[#0154D6]">FROM</div>
+                <div className="text-2xl font-bold text-[#0154D6]">£1,000</div>
+                </div>),
         period: "PER ANNUM",
         icon: PieChart,
         desc: "Get started with the essentials",
@@ -198,7 +213,10 @@ const pricingData = [
       },
       {
         type: "PREMIUM",
-        price: "£2,250",
+        price: (<div>
+                <div className="text-xs text-gray-[#0154D6]">FROM</div>
+                <div className="text-2xl font-bold text-[#0154D6]">£2,250</div>
+                </div>),
         period: "PER ANNUM",
         icon: Rocket,
         desc: "Get started with the essentials",
@@ -242,7 +260,10 @@ const pricingData = [
       },
       {
         type: "STANDARD",
-        price: "£345",
+        price: (<div>
+                <div className="text-xs text-gray-[#0154D6]">FROM</div>
+                <div className="text-2xl font-bold text-[#0154D6]">£345</div>
+                </div>),
         period: "PER ANNUM",
         icon: PieChart,
         desc: "Get started with the essentials",
