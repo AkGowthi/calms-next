@@ -95,6 +95,8 @@ const pricingData = [
       { name: "Host App for 500 users", price: "£338" },
       { name: "Integration to Access Control", price: "£1500" },
       { name: "Remote Setup & Training", price: "£2500" },
+      { name: "Roll Call & Validation App (Staff & Visitor)", price: "£450" },
+      { name: "FaBS Guest & Payment Module", price: "£1125" },
     ],
   },
   {
