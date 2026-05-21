@@ -59,11 +59,13 @@ const pricingData = [
       },
       {
         type: "PREMIUM",
-        price: "GET A QUOTE",
-       /* price: (<div>
-                <div className="text-xs text-gray-[#0154D6]">FROM</div>
-                <div className="text-2xl font-bold text-[#0154D6]">£2,200</div>
-                </div>),*/
+        price: (<div>
+                  <div className="flex flex-col justify-center">
+                        <h3 className="text-xl font-bold text-[#0154D6] leading-none">
+                        GET A QUOTE
+                        </h3>
+                    </div>
+                </div>),
         //period: "PER ANNUM",
         icon: Rocket,
         desc: "Power up your operations",
@@ -144,12 +146,14 @@ const pricingData = [
       },
       {
         type: "PREMIUM",
-        /*price: (<div>
-                <div className="text-xs text-gray-[#0154D6]">FROM</div>
-                <div className="text-2xl font-bold text-[#0154D6]">£4,500</div>
+        price: (<div>
+                  <div className="flex flex-col justify-center">
+                        <h3 className="text-xl font-bold text-[#0154D6] leading-none">
+                        GET A QUOTE
+                        </h3>
+                    </div>
                 </div>),
-        period: "PER ANNUM",*/
-        price: "GET A QUOTE",
+        //period: "PER ANNUM",
         icon: Rocket,
         desc: "Power up your operations",
         features: [
@@ -218,12 +222,14 @@ const pricingData = [
       },
       {
         type: "PREMIUM",
-        /*price: (<div>
-                <div className="text-xs text-gray-[#0154D6]">FROM</div>
-                <div className="text-2xl font-bold text-[#0154D6]">£2,250</div>
+        price: (<div>
+                  <div className="flex flex-col justify-center">
+                        <h3 className="text-xl font-bold text-[#0154D6] leading-none">
+                        GET A QUOTE
+                        </h3>
+                    </div>
                 </div>),
-        period: "PER ANNUM",*/
-        price: "GET A QUOTE",
+        //period: "PER ANNUM",
         icon: Rocket,
         desc: "Get started with the essentials",
         features: [
