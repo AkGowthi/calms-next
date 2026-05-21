@@ -59,11 +59,12 @@ const pricingData = [
       },
       {
         type: "PREMIUM",
-        price: (<div>
+        price: "GET A QUOTE",
+       /* price: (<div>
                 <div className="text-xs text-gray-[#0154D6]">FROM</div>
                 <div className="text-2xl font-bold text-[#0154D6]">£2,200</div>
-                </div>),
-        period: "PER ANNUM",
+                </div>),*/
+        //period: "PER ANNUM",
         icon: Rocket,
         desc: "Power up your operations",
         features: [
@@ -89,7 +90,8 @@ const pricingData = [
         borderColor: "border-blue-100",
       },
     ],
-    addons: [
+    addons: 
+      [
       { name: "Receptionist License", price: "£360" },
       { name: "Self-service Kiosk", price: "£450" },
       { name: "Host App for 500 users", price: "£338" },
@@ -142,11 +144,12 @@ const pricingData = [
       },
       {
         type: "PREMIUM",
-        price: (<div>
+        /*price: (<div>
                 <div className="text-xs text-gray-[#0154D6]">FROM</div>
                 <div className="text-2xl font-bold text-[#0154D6]">£4,500</div>
                 </div>),
-        period: "PER ANNUM",
+        period: "PER ANNUM",*/
+        price: "GET A QUOTE",
         icon: Rocket,
         desc: "Power up your operations",
         features: [
@@ -215,11 +218,12 @@ const pricingData = [
       },
       {
         type: "PREMIUM",
-        price: (<div>
+        /*price: (<div>
                 <div className="text-xs text-gray-[#0154D6]">FROM</div>
                 <div className="text-2xl font-bold text-[#0154D6]">£2,250</div>
                 </div>),
-        period: "PER ANNUM",
+        period: "PER ANNUM",*/
+        price: "GET A QUOTE",
         icon: Rocket,
         desc: "Get started with the essentials",
         features: [
