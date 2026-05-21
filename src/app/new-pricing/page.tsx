@@ -92,13 +92,13 @@ const pricingData = [
     ],
     addons: 
       [
-      { name: "Receptionist License", price: "£360" },
-      { name: "Self-service Kiosk", price: "£450" },
-      { name: "Host App for 500 users", price: "£338" },
-      { name: "Integration to Access Control", price: "£1500" },
-      { name: "Remote Setup & Training", price: "£2500" },
-      { name: "Roll Call & Validation App (Staff & Visitor)", price: "£450" },
-      { name: "FaBS Guest & Payment Module", price: "£1125" },
+      { name: "Receptionist License", price: "" },
+      { name: "Self-service Kiosk", price: "" },
+      { name: "Host App for 500 users", price: "" },
+      { name: "Integration to Access Control", price: "" },
+      { name: "Remote Setup & Training", price: "" },
+      { name: "Roll Call & Validation App (Staff & Visitor)", price: "" },
+      { name: "FaBS Guest & Payment Module", price: "" },
     ],
   },
   {
@@ -168,9 +168,9 @@ const pricingData = [
       },
     ],
     addons: [
-      { name: "Host App for 500 users", price: "£338" },
-      { name: "Integration to Access Control", price: "£1500" },
-      { name: "Remote Setup & Training", price: "£2500" },
+      { name: "Host App for 500 users", price: "" },
+      { name: "Integration to Access Control", price: "" },
+      { name: "Remote Setup & Training", price: "" },
     ],
   },
   {
@@ -240,9 +240,9 @@ const pricingData = [
       },
     ],
     addons: [
-      { name: "Mobile Apps (per unit)", price: "£115" },
-      { name: "Integration to Access Control", price: "£1500" },
-      { name: "Remote Setup & Training", price: "£2500" },
+      { name: "Mobile Apps (per unit)", price: "" },
+      { name: "Integration to Access Control", price: "" },
+      { name: "Remote Setup & Training", price: "" },
     ],
   },
   {
@@ -357,15 +357,21 @@ export default function NewPricingPage() {
 
               {/* Add-ons */}
               <div className="p-6 flex flex-col h-full border border-gray-100 bg-white shadow-sm hover:shadow-md transition-shadow">
+                {/* Header */}
                 <div className="flex items-center gap-3 mb-6">
+                   {/* Icon */}
                   <div className="w-8 h-8 rounded-full bg-[#0154D6] flex items-center justify-center text-white">
                     <Plus size={18} />
                   </div>
-                  <h3 className="text-sm font-bold text-[#555] uppercase tracking-wide">
-                    ADD-ONS
-                  </h3>
+                  {/* Title */}
+                      <div className="flex flex-col justify-center">
+                        <h3 className="text-xl font-bold text-[#0154D6] leading-none">
+                        GET A QUOTE
+                        </h3>
+                    </div>
                 </div>
-                
+
+                <p className="text-sm font-semibold text-[#555] uppercase mt-1">ADD-ONS</p>
                 <p className="text-xs text-gray-400 italic mb-4">Enhance your plan with add-ons</p>
 
                 <ul className="space-y-3">
