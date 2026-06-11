@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { LazyVideo } from "@/components/lazy-video";
 import {
   BarChart3,
   Briefcase,
@@ -91,15 +92,10 @@ export default function Home() {
       <section className="relative w-full h-[600px] md:h-[700px] flex items-center bg-slate-900 overflow-hidden">
         {/* Background Image Placeholder - using a dark overlay for now */}
         <div className="absolute inset-0 z-0">
-           <video
-             autoPlay
-             loop
-             muted
-             playsInline
+           <LazyVideo
+             src="/images/hero-video.mp4"
              className="absolute inset-0 w-full h-full object-cover"
-           >
-             <source src="/images/hero-video.mp4" type="video/mp4" />
-           </video>
+           />
            <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/40 z-10" />
         </div>
 
@@ -112,12 +108,12 @@ export default function Home() {
               Flexible Deployment. Scalable Performance. Trusted by Sectors Across Industries.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              <button className="px-8 py-2 rounded-lg font-normal bg-white text-[#0154D6] hover:bg-gray-100 transition-colors">
+              <button className="px-8 py-3 rounded-lg font-normal bg-white text-[#0154D6] hover:bg-gray-100 transition-colors">
                 Book Free Demo
               </button>
               <Link
                 href="#solutions"
-                className="px-8 py-2 rounded-lg font-normal border border-white text-white hover:bg-white hover:text-[#0154D6] transition-colors"
+                className="px-8 py-3 rounded-lg font-normal border border-white text-white hover:bg-white hover:text-[#0154D6] transition-colors"
               >
                 Explore Solutions
               </Link>
@@ -135,15 +131,10 @@ export default function Home() {
               {/* Video inside the tablet - positioned with proper padding to match tablet screen */}
               <div className="absolute inset-0 flex items-center justify-center z-40">
                 <div className="relative w-full h-full flex items-center justify-center" style={{ padding: "5.5% 8.5%" }}>
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
+                  <LazyVideo
+                    src="/images/Video-Looping.mp4"
                     className="w-full h-full object-fit border-10 border-black rounded-xl"
-                  >
-                    <source src="/images/Video-Looping.mp4" type="video/mp4" />
-                  </video>
+                  />
                 </div>
               </div>
               {/* Tablet image overlay */}

@@ -35,7 +35,6 @@ export function SiteHeader() {
               width={160}
               height={48}
               className="h-12 w-auto"
-              style={{ width: "auto" }}
               priority
             />
           </Link>
@@ -65,7 +64,7 @@ export function SiteHeader() {
           {/* Mobile Menu Toggle */}
           <button
             aria-label="Toggle menu"
-            className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-md text-[#282828] border border-[#002a70]/30"
+            className="md:hidden inline-flex items-center justify-center w-12 h-12 rounded-md text-[#282828] border border-[#002a70]/30"
             onClick={() => setOpen((v) => !v)}
           >
             <span className="sr-only">Open main menu</span>
@@ -105,7 +104,7 @@ export function SiteHeader() {
             <Link
               key={item.href}
               href={item.href}
-              className="block text-[#282828] text-lg"
+              className="block text-[#282828] text-lg py-3"
               onClick={closeMenu}
               aria-current={isActive(item.href) ? "page" : undefined}
             >

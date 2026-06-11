@@ -30,8 +30,8 @@ export default function SiteFooter() {
                 { label: "Guard Tour System (GTS)", href: "/solutions/gts" },
               ].map((item) => (
                 <li key={item.href} className="flex items-start gap-2">
-                  <ChevronRight className="h-4 w-4 mt-0.5 text-gray-500" />
-                  <Link href={item.href} className="hover:underline">
+                  <ChevronRight className="h-4 w-4 mt-1.5 text-gray-500" />
+                  <Link href={item.href} className="hover:underline py-1 block">
                     {item.label}
                   </Link>
                 </li>
@@ -44,8 +44,8 @@ export default function SiteFooter() {
             <h3 className="mb-4 text-lg font-bold">Resources</h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2">
-                <ChevronRight className="h-4 w-4 mt-0.5 text-gray-500" />
-                <Link href="https://www.youtube.com/@CALMSInternational" className="hover:underline">
+                <ChevronRight className="h-4 w-4 mt-1.5 text-gray-500" />
+                <Link href="https://www.youtube.com/@CALMSInternational" className="hover:underline py-1 block">
                   Video Demo
                 </Link>
               </li>
@@ -56,12 +56,12 @@ export default function SiteFooter() {
                 </div>
                 <ul className="ml-6 mt-2 space-y-2">
                   <li>
-                    <Link href="https://apps.apple.com/in/app/calms-versa/id6446074637" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    <Link href="https://apps.apple.com/in/app/calms-versa/id6446074637" target="_blank" rel="noopener noreferrer" className="hover:underline py-1 block">
                       iOS
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://play.google.com/store/apps/details?id=com.calms.vims" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                    <Link href="https://play.google.com/store/apps/details?id=com.calms.vims" target="_blank" rel="noopener noreferrer" className="hover:underline py-1 block">
                       Android
                     </Link>
                   </li>
@@ -76,22 +76,22 @@ export default function SiteFooter() {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-gray-600 mt-0.5" />
-                <div className="flex flex-col">
-                  <Link href="tel:+447778766356" className="hover:underline">
+                <div className="flex flex-col gap-1">
+                  <Link href="tel:+447778766356" className="hover:underline py-1 block">
                     +44 777 876 6356
                   </Link>
-                  <Link href="tel:+447897916481" className="hover:underline">
+                  <Link href="tel:+447897916481" className="hover:underline py-1 block">
                     +44 789 791 6481
                   </Link>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-gray-600 mt-0.5" />
-                <div className="flex flex-col">
-                  <Link href="mailto:chunwei@calms.com.my" className="hover:underline">
+                <div className="flex flex-col gap-1">
+                  <Link href="mailto:chunwei@calms.com.my" className="hover:underline py-1 block">
                     chunwei@calms.com.my
                   </Link>
-                  <Link href="mailto:guy@calms.com.my" className="hover:underline">
+                  <Link href="mailto:guy@calms.com.my" className="hover:underline py-1 block">
                     guy@calms.com.my
                   </Link>
                 </div>
