@@ -115,7 +115,7 @@ export default function SiteFooter() {
       <div className="bg-white text-center text-xs py-4 text-gray-600 border-t border-gray-100">
         <div className="mx-auto w-full px-4 md:px-28">
           <p>
-            2025 © CALMS International. All Rights Reserved.{" "}
+            {new Date().getFullYear()} © CALMS International. All Rights Reserved.{" "}
             <Link href="/privacy-policy" className="hover:underline">
               Privacy Policy
             </Link>
